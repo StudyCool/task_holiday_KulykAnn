@@ -1,5 +1,6 @@
 @import "footer";
 @import "header";
+@import "banner";
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -28,9 +29,14 @@ body {
 a{
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 a:hover, a:active{
 
   transition: background-color, color, 0.3s;
+}
+
+img {
+  vertical-align: middle;
 }
