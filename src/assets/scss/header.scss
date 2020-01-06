@@ -2,3 +2,16 @@
 @import "break-points";
 @import "mobile_navigation";
 
+@media screen and (max-width: 1024px){
+  #header{
+    .header-content{
+      width: 90%;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      margin: 0 auto;
+      max-width: 1170px;
+      padding: 40px 0;
+      transition: padding 0.3s;
+    }
+  }
+}
+
