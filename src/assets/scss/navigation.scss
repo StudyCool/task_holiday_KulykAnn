@@ -3,7 +3,7 @@
 
 @media screen and (min-width: $lg) {
 
-  .navigation.open {
+  .open {
     opacity: 0.9;
     visibility: visible;
     transition: opacity 0.5s;
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width:  $lg){
   .navigation {
     display: none;
     position: fixed;
@@ -49,9 +49,10 @@
 nav {
   display: block;
 }
+
 /*
 
-@media screen and (min-width: $lg){
+@media screen and (max-width: $lg){
   .navigation {
     visibility: hidden;
   }
