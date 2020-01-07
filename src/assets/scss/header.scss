@@ -1,17 +1,35 @@
 @import "theme";
 @import "break-points";
-@import "mobile_navigation";
 
-@media screen and (max-width: 1024px){
-  #header{
-    .header-content{
-      width: 90%;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 40px 0;
-      transition: padding 0.3s;
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  .header-content {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 16px;
+    max-width: 1170px;
+    padding: 40px 0;
+    width: 100%;
+    transition: padding 0.3s;
+    .clearfix {
+      .logo {
+        vertical-align: middle;
+        float: left;
+
+      }
     }
   }
+
 }
 
+
+.fixed {
+  background-color: #292c47;
+}
+
+#header.fixed .header-content {
+  border-bottom: 0;
+  padding: 25px 0; }
+#header.fixed .nav-toggle {
+  top: 18px; }

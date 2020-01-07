@@ -1,0 +1,75 @@
+@import "theme";
+@import "break-points";
+
+@media screen and (min-width: $lg) {
+
+  .navigation.open {
+    opacity: 0.9;
+    visibility: visible;
+    transition: opacity 0.5s;
+  }
+
+  .navigation {
+    float: right;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation a {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 40px;
+    text-transform: uppercase;
+  }
+  .navigation a:hover, .navigation a.active {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .navigation {
+    display: none;
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    opacity: 0.9;
+    visibility: visible;
+    transition: opacity 0.5s;
+  }
+
+}
+.navigation {
+  float: right;
+}
+nav {
+  display: block;
+}
+
+@media screen and (min-width: $lg){
+  .navigation {
+    visibility: hidden;
+  }
+  .mobileNavigationContainerOpen {
+    display: flex!important;
+    opacity: .9;
+  }
+
+  .mobileNavigationContainer {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+}

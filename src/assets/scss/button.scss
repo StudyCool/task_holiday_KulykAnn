@@ -1,0 +1,26 @@
+.btn-large {
+  padding: 15px 40px;
+}
+
+.btn{
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  background-color: #e84545;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+a{
+  .btn-large{
+    margin: 0 auto;
+  }
+}

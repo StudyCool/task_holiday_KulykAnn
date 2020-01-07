@@ -1,3 +1,9 @@
+@import "theme";
+@import "break-points";
+*{
+  box-sizing: border-box;
+}
+
 .banner {
   background-image: url(../images/banner.jpg);
   background-position: center top;
@@ -5,3 +11,90 @@
   background-size: cover;
   min-height: 750px;
 }
+
+.banner-text {
+  h1 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: center;
+    margin: 20px 0 10px;
+
+}
+}
+
+.banner-text{
+  @media screen and (max-width: 320px){
+    padding-top: 55%;
+    h1 {
+      margin-top: 25%;
+      font-size: 32px;
+
+    }
+  // width: 260px;
+  // margin: 0 auto;
+  }
+  @media screen and (max-width: 480px){
+    padding-top: 45%;
+    h1 {
+      font-size: 32px;
+    }
+  }
+  @media screen and (max-width: 640px){
+    padding-top: 35%;
+  }
+  @media screen and (max-width: 768px){
+    padding-top: 30%;
+  }
+  padding-top: 25%;
+
+  p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .banner-text{
+
+  }
+}
+
+@media screen and (min-width:640px) and (max-width: 768px){
+  .banner-text{
+    h1 {
+      font-size: 42px;
+    }
+  }
+}
+
+
+
+.banner-text{
+  p{
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+    width: 260px;
+    margin: 0 auto 80px;
+
+
+  }
+  }
+.btn-large{
+  padding: 15px 40px;
+
+}
+
+  div{
+    margin: 0 auto;
+  }
+
