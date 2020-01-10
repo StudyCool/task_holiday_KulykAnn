@@ -1,7 +1,7 @@
 @import "theme";
 @import "break-points";
 
-@media screen and (min-width: $lg) {
+//@media screen and (min-width: $lg) {
 
   .open {
     opacity: 0.9;
@@ -25,9 +25,9 @@
   .navigation a:hover, .navigation a.active {
     color: #fff;
   }
-}
+//}
 
-@media screen and (max-width:  $lg){
+/*@media screen and (max-width:  $lg){
   .navigation {
     display: none;
     position: fixed;
@@ -42,7 +42,7 @@
     transition: opacity 0.5s;
   }
 
-}
+}*/
 .navigation {
   float: right;
 }
@@ -50,12 +50,31 @@ nav {
   display: block;
 }
 
-/*
 
-@media screen and (max-width: $lg){
+
+@media screen and (max-width: 1024px) {
   .navigation {
-    visibility: hidden;
+    pozition: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    float: right;
+    display: block;
+    a{
+      display: block;
+      font-size: 25px;
+      margin: 0;
+      text-align: center;
+      text-decoration: none;
+      background-color: transparent;
+    }
   }
+
+}
+  /*
   .mobileNavigationContainerOpen {
     display: flex!important;
     opacity: .9;
