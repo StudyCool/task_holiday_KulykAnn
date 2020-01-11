@@ -1,0 +1,25 @@
+@import "../../assets/scss/theme";
+@import "../../assets/scss/break-points";
+@import "/components/UserCard";
+
+#team {
+  h4 {
+    color: #2d3033;
+    font-size: 22px;
+  }
+  padding: 100px 0;
+}
+
+.mediaPerson {
+  @media screen and (min-width: $md) {
+    width: 50%;
+  }
+  @media screen and (min-width: $lg) {
+    width: 50%;
+  }
+  @media screen and (min-width: $xl) {
+    margin-bottom: 50px;
+  }
+  padding: 0 15px;
+}
+

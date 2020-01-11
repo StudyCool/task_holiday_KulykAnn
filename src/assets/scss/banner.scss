@@ -15,14 +15,17 @@
 }
 
 .banner-text {
+  padding: 0 15px;
   h1 {
     color: #fff;
     font-family: "Open Sans", sans-serif;
+    font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.1;
     text-align: center;
     margin: 20px 0 10px;
+
   }
 
   p {
@@ -33,11 +36,11 @@
     font-size: 18px;
     text-align: center;
     margin: 0 auto 80px;
-    padding: 20px 0;
+
 
   }
 }
-
+/*
 @media screen and (max-width: $xs) {
   .banner-text {
     padding-top: 45%;
@@ -46,47 +49,7 @@
       font-size: 32px;
     }
   }
-}
-@media screen and (max-width: 768px){
-  .banner-text {
-    padding: 200px 20px 0px 20px;
-
-  }
-}
-@media screen and (max-width: $sm) {
-  .banner-text {
-
-    h1 {
-      font-size: 32px;
-    }
-  }
-}
-
-@media screen and(min-width: $sm) and (max-width: $md) {
-  padding-top: 35%;
-}
-
-@media screen and (min-width: $md) and (max-width: $lg) {
-  .banner-text {
-    h1 {
-      font-size: 42px;
-    }
-  }
-}
-
-@media screen and (min-width: $lg) {
-  .banner-text {
-
-    h1 {
-      font-size: 65px;
-      padding-top: 25%;
-    }
-
-    p {
-      font-size: 22px;
-    }
-  }
-}
+}*/
 
 .btn-large {
   padding: 15px 40px;

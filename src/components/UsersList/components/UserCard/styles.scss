@@ -1,0 +1,15 @@
+.person {
+
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  .personContent {
+    text-align: center;
+    font-size: 14px;
+  }
+}
