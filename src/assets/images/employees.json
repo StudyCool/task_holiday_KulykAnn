@@ -1,7 +1,7 @@
 [
   {
     "name": "Ruth Wood",
-    "position": "FOUNDER, CEO",
+    "role": "FOUNDER, CEO",
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "facebook",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Timothy Reed",
-    "position": "CO-FOUNDER, DEVELOPER",
+    "role": "CO-FOUNDER, DEVELOPER",
     "description": "Fusce dapibus, justo sit amet risus. Maecenas sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "facebook",
@@ -25,19 +25,19 @@
   },
   {
     "name": "Victoria Valdez",
-    "position": "UI DESIGNER",
+    "role": "UI DESIGNER",
     "description": "Fusce dapibus, justo sit amet risus. justo sit amet risusjusto sit amet risusjusto sit amet risusjusto sit amet risusjusto sit amet risusjusto sit amet risusjusto sit amet risusjusto sit amet risusjusto sit amet risusjusto sit amet risusMaecenas sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "facebook",
       "twitter",
       "linkedin",
       "dribbble"
-    ],
-    "profilePicture": "./assets/images/team-3.jpg"
+    ]
+
   },
   {
     "name": "Beverly Little",
-    "position": "DATA SCIENTIST",
+    "role": "DATA SCIENTIST",
     "description": "Fusce dapibus, justo sit amet risus. Maecenas sit amet non magna.  Maecenas sit amet non magna.  Maecenas sit amet non magna.  Maecenas sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "facebook",

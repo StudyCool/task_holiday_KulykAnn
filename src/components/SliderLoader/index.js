@@ -1,7 +1,7 @@
 import { appendById, loadJSON } from '../../utils';
 import createSlider             from '../Slider';
 
-loadJSON( '/data/comments.json' )
+loadJSON( '/assets/images/comments.json' )
   .then( (comments) => {
     appendById( 'sliderContainer', createSlider( comments ) );
   } );

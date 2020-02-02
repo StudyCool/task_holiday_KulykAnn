@@ -1,39 +1,38 @@
 import './styles.scss';
 import createPicture from '../../../Picture';
 
-
 export default function (user) {
-  const cardContainer = document.createElement( 'div' );
-  const userPicture = createPicture( user.profilePicture, '/assets/user_icon.png', 'profile picture', ['userImg', 'lskdjf', 'sldf'] );
+    const cardContainer = document.createElement('div');
+    const userPicture = createPicture(user.profilePicture, '/assets/images/user_icon.png', 'profile picture', ['userImg', 'img-responsive']);
+    cardContainer.appendChild(userPicture);
+
+    cardContainer.appendChild(createNameElem(user));
+
+    cardContainer.appendChild(createRoleElem(user));
+
+    cardContainer.appendChild(createDescriptionElem(user));
+
+    return cardContainer;
+}
 
 
+function createNameElem(user) {
+    const employeeNameHeading = document.createElement('h4');
+    employeeNameHeading.classList.add('fullName');
+    employeeNameHeading.innerText = user.name;
+    return employeeNameHeading;
+}
 
+function createRoleElem(user) {
+    const employeeRoleHeading = document.createElement('h5');
+    employeeRoleHeading.classList.add('role');
+    employeeRoleHeading.innerText = user.role;
+    return employeeRoleHeading;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  cardContainer.appendChild( userPicture );
-  return cardContainer;
+function createDescriptionElem(user) {
+    const employeeDescriptionParagraph = document.createElement('p');
+    employeeDescriptionParagraph.classList.add('description');
+    employeeDescriptionParagraph.innerText = user.description;
+    return employeeDescriptionParagraph;
 }

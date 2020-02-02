@@ -1,0 +1,27 @@
+.person {
+  margin: 0 auto 50px; }
+.person-content {
+  text-align: center; }
+.person .social-icons li {
+  display: inline-block;
+  float: none;
+  margin-bottom: 5px; }
+
+.testimonials blockquote {
+  padding: 20px 5% 0; }
+.testimonials p {
+  font-size: 26px; }
+
+.flex-control-nav {
+  bottom: 20px; }
+@media screen and (max-width: 768px) {
+  .banner-text {
+    padding-top: 30%;
+  }
+  .banner-text h1 {
+    font-size: 42px;
+  }
+  .banner-text p {
+    font-size: 18px;
+  }
+}

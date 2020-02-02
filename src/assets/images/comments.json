@@ -1,0 +1,20 @@
+[
+  {
+    "img_src": "images/testimonial-1.jpg",
+    "img_alt": "#",
+    "comment": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...",
+    "author": {
+      "fullName": "Susan Sims",
+      "career": "Interaction Designer at XYZ"
+    }
+  },
+  {
+    "img_src": "images/testimonial-2.jpg",
+    "img_alt": "#",
+    "comment": "Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur....",
+    "author": {
+      "fullName": "Susan Sims",
+      "career": "Interaction Designer at XYZ"
+    }
+  }
+]
