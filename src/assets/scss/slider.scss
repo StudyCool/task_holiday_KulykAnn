@@ -1,0 +1,29 @@
+.flexslider .slides img {
+  height: auto;
+}
+
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+
+.testimonials p {
+  color: #fff;
+  font: italic 36px "Cardo", Georgia, "Times New Roman", serif;
+}
+
+.testimonials blockquote {
+  border: 0;
+  margin: 0;
+  font-size: 17.5px;
+  display: block;
+}
+
+@media screen and (max-width: 320px) {
+  .testimonials p {font-size: 26px;}
+  .testimonials blockquote {padding: 20px 5% 0;}
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
