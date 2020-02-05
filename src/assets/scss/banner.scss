@@ -16,6 +16,8 @@
 
 .banner-text {
   padding: 0 15px;
+ // height: 611px;
+
   h1 {
     color: #fff;
     font-family: "Open Sans", sans-serif;
@@ -39,6 +41,91 @@
 
 
   }
+}
+
+@media screen and (min-width: $md) and (max-width: $lg) {
+  .banner-text {
+    padding-top: 30%;
+    width: 690px;
+
+    h1 {
+      font-size: 42px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  .text-center {
+    text-align: center;
+  }
+  .banner-text p {
+    font-size: 18px;
+    font-family: $font-context;
+    font-weight: 300;
+    margin: 0 0 80px;
+    width: 100%;
+    line-height: 1.5;
+    padding: 0;
+
+  }
+
+}
+
+@media screen and (min-width: $lg) and (max-width: $xl) {
+  .banner-text {
+    padding-top: 190px;
+    width: 753px;
+    height: 437px;
+
+    h1 {
+      font-size: 65px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      width: 753px;
+    }
+  }
+  .text-center {
+    text-align: center;
+  }
+  .banner-text p {
+    font-size: 22px;
+    font-family: $font-context;
+    font-weight: 300;
+    margin: 0 0 80px;
+    width: 100%;
+    line-height: 1.5;
+    padding: 0;
+
+  }
+
+}
+
+@media screen and (min-width: 1025px) {
+  .banner-text {
+    padding-top: 190px;
+    width: 753px;
+    height: 437px;
+
+    h1 {
+      font-size: 65px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      width: 753px;
+    }
+  }
+  .text-center {
+    text-align: center;
+  }
+  .banner-text p {
+    font-size: 22px;
+    font-family: $font-context;
+    font-weight: 300;
+    margin: 0 0 80px;
+    width: 100%;
+    line-height: 1.5;
+    padding: 0;
+
+  }
+
 }
 /*
 @media screen and (max-width: $xs) {
