@@ -48,15 +48,41 @@
 
 .section {
   padding: 100px 0;
-  display: block;
+
 
 }
 
 .featureContainer {
+  @media screen and (min-width: 768px) {
 
-  display: flex;
-  flex-direction: column;
+  }
+
 }
-@media screen and (min-width: 768px) {
-  flex-direction: row;
+
+.featureContainer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+
+  .featureContainer {
+
+    width: 970px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+}
+
+
+@media screen and (min-width: $md) and (max-width: $lg) {
+  .featureContainer {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

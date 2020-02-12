@@ -15,8 +15,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   line-height: 1.42857143;
-  display: flex;
-  flex-flow: column;
   min-height: 100vh;
   margin: auto;
 }
@@ -29,14 +27,13 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-section{
-  display: flex;
-  flex-direction: column;
+
 }
 
+
 @media screen and (min-width: $lg) {
-  flex-direction: row;
+
+
 }
 
 .socialIcons, .footerItem a {
@@ -69,36 +66,20 @@ img {
 }
 
 .work:nth-child(1) {
-  -moz-animation-delay: 0.1s;
-  -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s; }
 .work:nth-child(2) {
-  -moz-animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s; }
 .work:nth-child(3) {
-  -moz-animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s; }
 .work:nth-child(4) {
-  -moz-animation-delay: 0.4s;
-  -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s; }
 .work:nth-child(5) {
-  -moz-animation-delay: 0.8s;
-  -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s; }
 .work:nth-child(6) {
-  -moz-animation-delay: 0.7s;
-  -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s; }
 .work:nth-child(7) {
-  -moz-animation-delay: 0.6s;
-  -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s; }
 .work:nth-child(8) {
-  -moz-animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s; }
 
 .animated {
@@ -121,14 +102,10 @@ img {
     z-index: 99999;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
     transition: opacity 0.5s, visibility 0s 0.5s; }
   .navigation .primary-nav {
     position: relative;
     top: 45%;
-    -moz-transform: translateY(-45%);
-    -ms-transform: translateY(-45%);
-    -webkit-transform: translateY(-45%);
     transform: translateY(-45%); }
   .navigation li {
     display: block;
