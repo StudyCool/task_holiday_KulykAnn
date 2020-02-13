@@ -4,6 +4,7 @@ import link from '../../../ContactLink/index';
 
 export default function(user) {
   const cardContainer = document.createElement('div');
+  cardContainer.classList.add('userCard');
   const userPicture = createPicture(user.profilePicture,
       '/assets/images/user_icon.png', 'profile picture',
       ['userImg', 'img-responsive']);
@@ -23,14 +24,14 @@ export default function(user) {
 function createNameElem(user) {
   const employeeNameHeading = document.createElement('h4');
   employeeNameHeading.classList.add('fullName');
-  employeeNameHeading.innerText = user.name;
+  employeeNameHeading.innerText = user.name || "Anonymous";
   return employeeNameHeading;
 }
 
 function createRoleElem(user) {
   const employeeRoleHeading = document.createElement('h5');
   employeeRoleHeading.classList.add('role');
-  employeeRoleHeading.innerText = user.role;
+  employeeRoleHeading.innerText = user.role || "works with us";
   return employeeRoleHeading;
 }
 
@@ -43,7 +44,6 @@ function createDescriptionElem(user) {
 
 
 /*
-function createSocialNetworksLinks(user, link, arrayOfLinks = []) {
-arrayOfLinks = user.contacts;
-
-}*/
+ function createSocialNetworksLinks(user, link, arrayOfLinks = []) {
+ arrayOfLinks = user.contacts;
+ }*/

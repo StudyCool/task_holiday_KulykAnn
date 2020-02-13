@@ -1,3 +1,6 @@
+@import "theme";
+@import "break-points";
+/*
 .person {
   margin: 0 auto 50px; }
 .person-content {
@@ -13,7 +16,7 @@
   font-size: 26px; }
 
 .flex-control-nav {
-  bottom: 20px; }
+  bottom: 20px; }*/
 @media screen and (max-width: 768px) {
   .banner-text {
     padding-top: 30%;
@@ -25,3 +28,45 @@
     font-size: 18px;
   }
 }
+
+.userCard {
+  max-width: 270px;
+  margin: 0 auto;
+
+ h4, h5 { width: 270px}
+}
+
+@media screen and (min-width: $lg) {
+    .cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .userCard {
+    max-width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+    .userImg {
+
+      width: 212px;
+      height: 212px;
+    }
+    h4, h5, p{
+      width: 212px;
+    }
+  }
+
+
+
+}
+
+
+@media screen and (min-width: $md) and (max-width: $lg) {
+  .cardWrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+}
+
+

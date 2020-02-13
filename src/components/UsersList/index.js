@@ -8,6 +8,7 @@ import './styles.scss';
  */
 export default function (users) {
   const listContainer = document.createElement( 'div' );
+  listContainer.classList.add('cardWrapper');
 
   users.forEach( user => {
     listContainer.appendChild( createUserCard( user ) );
